@@ -53,15 +53,27 @@ img#logo {
 }
 
 section.secciones{
-	color: #F6F6F6;
+	color: rgb(246, 246, 246);
 	border-style: groove;
 	border-color: #CC6600;
 	border-radius: 10%;
 	margin-left: 200px;
 	margin-right: 200px;
 	padding: 50px;
+	background-color: rgba(40, 44, 44, 0.8);
 }
 
 h1{
 	text-align: center;
+}
+
+section.secciones#QuienSoy{
+	float: right;
+	width: 300px;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	color: rgba(246, 246, 246, 1);
+}
+nav{
+	
 }

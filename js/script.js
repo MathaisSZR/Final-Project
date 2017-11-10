@@ -15,17 +15,17 @@ $(document).ready(function(){
 			"background-position": "0 -" + position +"px"
 		});
 
-			if (scroll > 100) {
-				if (!flag) {
-					$("#logo").css({"margin-top": "250%", "max-width": "100px", "max_height": "100px", "margin-left": "25px"});
-					flag = true;
-				}
+		if (scroll > 100) {
+			if (!flag) {
+				$("#logo").css({"margin-top": "250%", "max-width": "100px", "max_height": "100px", "margin-left": "25px"});
+				flag = true;
 			}
-			else{
-				if (!flag) {
-					$("#logo").css({"margin-top": "0%", "max-width": "500px", "max_height": "500px", "margin-left": "300%"});
-					flag = true;
-				}
+		}
+		else{
+			if (!flag) {
+				$("#logo").css({"margin-top": "0%", "max-width": "500px", "max_height": "500px", "margin-left": "300%"});
+				flag = true;
+			}
 		}
 	});
 });
