@@ -45,7 +45,7 @@ div#body {
 
 img#logo {
 	float: left;
-	margin-left: 300%;
+	margin-left: 150%;
 	border-radius: 50%;
 	max-height: 500px;
 	max-width: 500px;
@@ -69,7 +69,7 @@ h1{
 
 section.secciones#QuienSoy{
 	float: right;
-	width: 300px;
+	width: 450px;
 	border: none;
 	background-color: rgba(0,0,0,0);
 	color: rgba(246, 246, 246, 1);

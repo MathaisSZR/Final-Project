@@ -23,7 +23,7 @@ $(document).ready(function(){
 		}
 		else{
 			if (!flag) {
-				$("#logo").css({"margin-top": "0%", "max-width": "500px", "max_height": "500px", "margin-left": "300%"});
+				$("#logo").css({"margin-top": "0%", "max-width": "500px", "max_height": "500px", "margin-left": "150%"});
 				flag = true;
 			}
 		}
