@@ -7,7 +7,7 @@ $(document).ready(function(){
 		scroll = $(window).scrollTop();
 
 			var barscr = $(window).scrollTop();
-			var position = barscr * 0.05;
+			var position = barscr * 0.03;
 			var scroll;
 			var flag = false;
 			
@@ -28,4 +28,8 @@ $(document).ready(function(){
 			}
 		}
 	});
+
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
 });

@@ -77,3 +77,72 @@ section.secciones#QuienSoy{
 nav{
 	
 }
+
+.card{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.btn{
+	margin:4%;
+}
+
+.btn{
+	background: rgb(246, 246, 246);
+	color: black;
+	border-color: black;
+}
+
+.btn-dark:hover {
+	background: black;
+	color: rgb(246, 246, 246);
+	border-color: rgb(246, 246, 246);
+}
+
+.btn-dark.focus, .btn-dark:focus {
+    box-shadow: 0 0 0 0.2rem rgba(246, 246, 246, 0.5);
+}
+
+
+.btn-dark:active, .btn-dark.active,
+.show > .btn-dark.dropdown-toggle {
+  background-color: #23272b;
+  background-image: none;
+  border-color: #1d2124;
+}
+
+.btn-dark.disabled, .btn-dark:disabled {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+ul#listaEntre{
+	list-style: none;
+	margin-right: 80%;
+}
+
+.nom{
+	margin-right: : 30%;
+}
+
+.Entre{
+	margin-left: 30%;
+	bottom: 200px;
+}
+
+.card-body{
+	margin-left: 10%;
+}
+
+a{
+	color: #B9B9B9;
+}
+
+a:hover{
+	color: white;
+}
+
+.popover{
+	transform: translate3d(398px, 3655px, 0px);
+	max-width: 500px;
+}
