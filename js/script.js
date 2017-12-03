@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 		if (scroll > 100) {
 			if (!flag) {
-				$("#logo").css({"margin-top": "250%", "max-width": "100px", "max_height": "100px", "margin-left": "25px"});
+				$("#logo").css({"margin-top": "190%", "max-width": "100px", "max_height": "100px", "margin-left": "25px"});
 				flag = true;
 			}
 		}
