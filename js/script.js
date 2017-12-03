@@ -7,7 +7,7 @@ $(document).ready(function(){
 		scroll = $(window).scrollTop();
 
 			var barscr = $(window).scrollTop();
-			var position = barscr * 0.03;
+			var position = barscr * 0.025;
 			var scroll;
 			var flag = false;
 			

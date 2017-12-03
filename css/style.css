@@ -84,7 +84,7 @@ nav{
 }
 
 .btn{
-	margin:4%;
+	margin:3%;
 }
 
 .btn{
@@ -147,3 +147,4 @@ a:hover{
 	max-width: 500px;
 }
 
+@media only screen and (max-width: 768px)
